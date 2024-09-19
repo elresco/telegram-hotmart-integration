@@ -1,0 +1,20 @@
+{
+  "name": "create-ts-node-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "watch": "nodemon"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "22.3.0",
+    "nodemon": "3.1.4",
+    "prettier": "3.3.3",
+    "typescript": "5.5.4"
+  },
+  "dependencies": {
+    "dotenv": "16.4.5",
+    "ts-node": "10.9.2",
+    "zod": "3.23.8"
+  }
+}
